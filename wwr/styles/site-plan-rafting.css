@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Burned&display=swap');
 
 :root {
-    --primary-color: #b5b5ff;
+    --primary-color: #B5FFE1;
     --secondary-color: #93E5AB;
     --accent1-color: #65B891;
     --accent2-color: #4E878C;
@@ -9,10 +9,10 @@
     --heading-font:"Oswald", serif;
     --paragraph-font:"Oswald", serif;
 
-    --nav-background-color: #a2c8b9;
-    --nav-link-color: #043d42;
-    --nav-hover-link-color: #1f4835;
-    --nav-hover-background-color: #18261c;
+    --nav-background-color: #B5FFE1;
+    --nav-link-color: #4E878C;
+    --nav-hover-link-color: #65B891;
+    --nav-hover-background-color: #93E5AB;
 }
 
 body {
