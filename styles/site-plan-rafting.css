@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+
+
+body {
+    font-family: "Rubik Burned", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    max-width: 960px;
+  }
+
+:root {
+    --primary-color: #B5FFE1;
+    --secondary-color: #93E5AB;
+    --accent1-color: #65B891;
+    --accent2-color: #4E878C;
+
+    --heading-font:"", serif;
+    --paragraph-font:"", serif;
+
+    --nav-background-color: #B5FFE1;
+    --nav-link-color: #4E878C;
+    --nav-hover-link-color: #65B891;
+    --nav-hover-background-color: #93E5AB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
