@@ -40,9 +40,12 @@ nav img {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 80%;
+    background-color: var(--nav-background-color);
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+    padding: 20px;
 }
 
 .section h2 img{
@@ -62,7 +65,7 @@ nav img {
   
 .hero img {
     width: 100%; 
-    height: auto; 
+    height: auto;
 }
   
 .hero h1, .hero article {
