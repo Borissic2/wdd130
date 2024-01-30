@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik+Burned&family=Single+Day&display=swap);
+
+:root {
+    --primary-color: #3e3eed;
+    --secondary-color: #93E5AB;
+    --accent1-color: #65B891;
+    --accent2-color: #4E878C;
+
+    --heading-font:"Single Day", serif;
+    --paragraph-font:"Single Day", serif;
+
+    --nav-background-color: #a2c8b9;
+    --nav-link-color: #043d42;
+    --nav-hover-link-color: #1f4835;
+    --nav-hover-background-color: #18261c;
+}
+
+body {
+    font-family: "Single Day", sans-serif;
+    color: var(--text-color);
+    margin: 10;
+    padding: 10;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin: auto;
+}
+
+p {
+    color: var(--text-color);
+}
+
+.social-media-links {
+    text-decoration: none;
+}
+
+nav img {
+    width: 10%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section h2 img{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/*hero */
+
+.hero {
+    position: relative;
+    width: 100%; 
+}
+  
+.hero img {
+    width: 100%; 
+    height: auto; 
+}
+  
+.hero h1, .hero article {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: var(--nav-hover-background-color);
+}
+  
+.hero h1 {
+    font-size: 2.5em;
+}
+  
+.hero article {
+    width: 80%; 
+    max-width: 600px; 
+}
+  
