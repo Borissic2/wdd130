@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Riot&family=Rubik+Burned&family=Sedan+SC&family=Single+Day&display=swap');
+
+
+
+:root {
+    --primary-color: #820263;
+    --secondary-color: #04a777;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--secondary-color);
+}
+
+.socialmedia {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    background-image: url(heroimage.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+    margin-top: 0;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+.hero article p {
+    color: white;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+}
+
+footer img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+section img {
+    width: 50%;
+}
+
+section {
+    
+}
