@@ -5,6 +5,7 @@
 :root {
     --primary-color: #820263;
     --secondary-color: #04a777;
+    --background-color: #2ec4b6;
 }
 
 h1, h2 {
@@ -35,40 +36,48 @@ p {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px 20px;
 }
 
 .hero img {
     display: block;
     width: 100%;
     position: relative;
+
 }
 
 .hero h1 {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: blue;
-    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .hero article {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 25%;
+    left: 70%;
     transform: translate(-50, -50);
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
+    
 }
 
 .hero article p {
     color: white;
+    position: relative;
+    right: 20%;
+
 }
 
 .hero article img {
-    float: right;
-    margin-left: 20px;
+    position: relative;
+    right: 50%;
+    float: left;
+    margin-left: 100px;  
 }
 
 footer img {
@@ -80,6 +89,103 @@ section img {
     width: 50%;
 }
 
-section {
+header {
+    margin: 1rem;
+    display: grid;
+    align-items: center;
+    border-bottom: 1px solid black;
+    max-width: 1600px;
+    text-decoration: none;
+    background-color: var(--background-color);
     
 }
+
+img {
+    grid-column: 1;   
+}
+
+nav {
+    grid-column: 2;
+}
+
+.links {
+    display: flex;
+    gap: 7rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #9c6644;
+    font-weight: 700;
+    text-decoration: underline;
+}
+   
+.historygrid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem;
+    gap: 20px;
+    padding: 20px;
+}
+
+h2 {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+img {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.historyparagraph {
+    grid-column: 1;
+    grid-row: 1/2;
+    justify-self: center;
+    justify-self: center;
+}
+
+
+
+.adventure {
+    display: grid;
+    gap: 0.5rem ;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  .title img {
+    max-width: 220px;
+    max-height: 150px;
+    justify-self: center;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    align-self: center;
+  }
+
+
