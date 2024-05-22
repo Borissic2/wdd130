@@ -50,7 +50,7 @@ p {
     position: absolute;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%)px;
+    transform: translate(-50%, -50%);
     color: blue;
     margin-top: 20px;
     margin-bottom: 20px;
