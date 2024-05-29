@@ -357,3 +357,7 @@ h4 {
     position: relative;
     justify-content: center;
 }
+
+.container {
+    background-color: #f7fed1;
+}
