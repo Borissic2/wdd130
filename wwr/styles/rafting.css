@@ -3,9 +3,9 @@
 
 
 :root {
-    --primary-color: #820263;
-    --secondary-color: #04a777;
-    --background-color: #2ec4b6;
+    --primary-color: #6dcf75;
+    --secondary-color: #0d00ca;
+    --background-color: #83c5be;
 }
 
 h1, h2 {
@@ -81,6 +81,7 @@ p {
 }
 
 footer img {
+    position: relative;
     width: 50px;
     margin-bottom: 10px;
 }
@@ -188,4 +189,157 @@ figure {
     align-self: center;
   }
 
+  .contact {
+    background-color: #edf6f9;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 90px 100px 100px 400px;
+}
 
+.form-group {
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.checkbox {
+    display: block;
+    width: 100%;
+    margin: 5px;
+}
+
+.radio {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.maps {
+    display: block;
+    width: 492px;
+    height: 449px;
+    background: #EDF0F4;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 700px;
+}
+
+.address,
+.phone,
+.email {
+    text-align: center;
+    text-decoration: double;
+    color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h4 {
+	width: 1180px;
+	height: 117px;
+	padding: 8px 8px 8px 8px;
+	background: #edf2f4 ;
+	border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    color: #3B4754;
+	font-family: "Open Sans";
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.2;
+}
+
+.address {
+    margin-left: 90px;
+	width: 286px;
+	height: 185px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF;
+	border-color: #C9D3DD;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+    margin-right: 50px;
+    list-style: none;
+}
+
+.phone {
+	width: 286px;
+	height: 185px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF;
+	border-color: #C9D3DD;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+    margin-right: 50px;
+}
+
+.email {
+    width: 286px;
+	height: 185px;
+	padding: 8px 8px 8px 8px;
+	background: #FFFFFF;
+	border-color: #C9D3DD;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.directions {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 10px;
+}
+
+.happy {
+
+    display: flex;
+	width: 893px;
+	height: 401px;
+    margin-top: 50px;
+}
+
+.happy2 {
+    display: block;
+	width: 893px;
+	height: 401px;
+    margin-bottom: 10px;
+
+    margin-left: 600px;
+}
+
+.happy3 {
+    display: block;
+	width: 893px;
+	height: 501px;
+    margin-top: 10px;
+
+}
